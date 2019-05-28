@@ -1,0 +1,52 @@
+/*----Estilos Generales----*/
+
+$primary-color: #ff2d55;
+$color: #1b2e38;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "poppins";
+}
+
+.title{
+  font-size: 3em;
+  color: $color;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.title span {
+  color: $primary-color
+}
+
+/*----Estilos Galeria----*/
+
+.gallery-contaner{
+  padding: 2em;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px. 1fr));
+  grip-gap: 1.sem;
+}
+
+.gallery_item{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  max-width: 400px;
+  background: $primary-color;
+ 
+}
+
+.gallery_img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

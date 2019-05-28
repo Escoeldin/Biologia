@@ -1,0 +1,31 @@
+<ion-view view-title="Juego De Memoria">
+  <ion-content class="padding">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="tex">Memoria</h1>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!--juego-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="picbox">
+                    <span id="boxbuttons">
+                        <span class="button">
+                            <span id="counter">0</span>
+                            Movimientos
+                        </span>
+                        <span class="button" ng-click="ResetGame()">
+                            Reiniciar
+                        </span> 
+                    </span>
+                        <center><div id="boxcard"></div></center>
+                </div>
+            </div>
+        </div>
+    </div>
+  </ion-content>
+</ion-view>
